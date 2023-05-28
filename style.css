@@ -1,3 +1,8 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
 img{
     width: 8em;
     height: 8em;
@@ -12,8 +17,8 @@ img{
   left: 30%;
   justify-content: center;
   text-align: center;
-  width: 30%;
-  height: 60%;
+  width: 23em;
+  height: 25em;
 }
   
   #mostarResultado{
@@ -23,8 +28,8 @@ img{
       left: 30%;
       justify-content: center;
       text-align: center;
-      width: 30%;
-      height: 60%;
+      width: 23em;
+      height:25em;
   }
 
   
@@ -58,6 +63,7 @@ img{
     background-color: tomato;
     border-radius: 20px;
     width: 50%;
+   cursor: pointer;
   }
 
 #mostar{
