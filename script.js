@@ -1,6 +1,5 @@
-alert('inicia el juego');
-// selector de elemento
 
+// selector de elemento
 
 document.querySelectorAll(".opcion").forEach(el => {
     el.addEventListener("click", e => {
