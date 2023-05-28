@@ -1,0 +1,74 @@
+img{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: 3px solid dodgerblue;
+}
+
+.container{
+  background-color: dodgerblue;
+  position: absolute;
+  top:15%;
+  left: 30%;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  height: 60%;
+}
+  
+  #mostarResultado{
+      background-color: dodgerblue;
+      position: absolute;
+      top:15%;
+      left: 30%;
+      justify-content: center;
+      text-align: center;
+      width: 30%;
+      height: 60%;
+  }
+
+  
+.juego{
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.juego img{
+ border: none;
+}
+
+
+  .otra{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .otra p{
+    margin-bottom: 10px;
+    color:#fff;
+    font-size:1.3em;
+    padding:10px;
+    background-color: tomato;
+    border-radius: 20px;
+    width: 50%;
+  }
+
+#mostar{
+    border: none;
+    border-radius: none;
+}
+
+.none{
+    display: none;
+}
+
+.mostrarimg{
+  width: 100%;
+}
