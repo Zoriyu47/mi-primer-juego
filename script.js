@@ -1,5 +1,7 @@
 
+alert('inicia el juego');
 // selector de elemento
+
 
 document.querySelectorAll(".opcion").forEach(el => {
     el.addEventListener("click", e => {
@@ -63,15 +65,18 @@ var modal = document.getElementById("mostarResultado");
 // Botón que abre el modal
 var boton = document.getElementById("opciones");
 
+//Boton cerrar modal
+var cerrar = document.getElementById("cerrar");
+
 // Cuando el usuario hace click en el botón, se abre la ventana
 boton.addEventListener("click",function() {
   modal.style.display = "block";
 });
 
 
-// Si el usuario hace click fuera de la ventana, se cierra.
+// Si el usuario hace click en el botón "otra vez!", se cierra.
 window.addEventListener("click",function(event) {
-  if (event.target == modal) {
+  if (event.target == cerrar) {
     modal.style.display = "none";
   }
 });
